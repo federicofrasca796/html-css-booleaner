@@ -37,7 +37,7 @@ h1{
 
 /* figure */
 figure{
-    margin:0;
+    margin:10px 0 0;
 }
 .photo-info{
     font-size: 10px;
@@ -62,4 +62,25 @@ tr{
 }
 .white-row{
     background-color: white;
+}
+
+/* potrebbero interessarti */
+footer{
+    margin: 10px;
+}
+h3{
+    color: grey;
+}
+.footer-img{
+    width: 500px;
+    position: relative;
+    
+}
+.img-txt{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top:5px;
+    left:5px;
 }
