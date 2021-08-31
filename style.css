@@ -1,13 +1,33 @@
 body{
     margin:0;
 }
+
+/* header */
 #banner{
     margin:0;
     background-color:#4EA1FD;
     /* background-repeat: repeat-x; */
     background-image:url(./img/pattern.png);
-    background-size: 340px;
+    background-size: 450px;
 }
-#logo{
+.logo{
     width: 300px;
+    padding: 30px 0 0 10px ;
+}
+
+/* main */
+h1{
+ font-size: 30px;
+ margin-bottom: 5px;
+}
+
+.info{
+    font-size: 16px;
+    color: gray;
+}
+.writer{
+    color: lightskyblue;
+}
+.date{
+    font-size: 10px;
 }
