@@ -1,3 +1,18 @@
+body{
+    margin:0;
+}
 #banner{
+    margin:0;
+    max-height: 100px;
     background-color:#4EA1FD;
+    background-repeat: repeat-x;
+    background-size: 50% ;
+    background-image:url(./img/pattern.png)
+}
+#logo{
+    max-height: inherit;
+
+    
+
+
 }
