@@ -31,3 +31,13 @@ h1{
 .date{
     font-size: 10px;
 }
+
+main{
+    margin:10px;
+}
+figure{
+    margin:0;
+}
+.photo-info{
+    font-size: 10px;
+}
