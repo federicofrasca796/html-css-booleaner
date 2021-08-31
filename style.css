@@ -3,16 +3,11 @@ body{
 }
 #banner{
     margin:0;
-    max-height: 100px;
     background-color:#4EA1FD;
-    background-repeat: repeat-x;
-    background-size: 50% ;
-    background-image:url(./img/pattern.png)
+    /* background-repeat: repeat-x; */
+    background-image:url(./img/pattern.png);
+    background-size: 340px;
 }
 #logo{
-    max-height: inherit;
-
-    
-
-
+    width: 300px;
 }
