@@ -4,9 +4,7 @@ body{
 
 /* header */
 #banner{
-    margin:0;
     background-color:#4EA1FD;
-    /* background-repeat: repeat-x; */
     background-image:url(./img/pattern.png);
     background-size: 450px;
 }
@@ -44,21 +42,24 @@ figure{
 }
 
 /* article */
-.highlight{
+/* .highlight{
     background-color:yellow;
-}
+} CHANGED WITH SEMANTIC TAG: "MARK" */
 
 /* table */
+table{
+    border-spacing:0;
+}
 thead{
     background-color: rgb(69, 181, 250);
     color: white;
     text-align: left;
 }
-/* td{
-    min-width: 600px;
-} */
-tr{
-    background-color: lightskyblue;
+td{
+    min-width: 200px;
+}
+.tr-light{
+    background-color: rgb(190, 230, 255);
 }
 .white-row{
     background-color: white;
@@ -71,7 +72,8 @@ footer{
 h3{
     color: grey;
 }
-.footer-img{
+
+/* .footer-img{
     width: 500px;
     position: relative;
     
@@ -83,4 +85,33 @@ h3{
     position: absolute;
     top:5px;
     left:5px;
+} */
+
+.footer-img{
+    
+    /* bg */
+    background-image: url(./img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:300px;
+    height:200px;
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.footer-img2{
+
+    /* bg */
+    background-image: url(./img/graph.jpg);
+    background-repeat: no-repeat;
+    width:300px;
+    height:200px;
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
 }
